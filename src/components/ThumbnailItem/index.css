@@ -1,0 +1,22 @@
+.thumbnail-item {
+  list-style-type: none;
+  margin: 5px;
+}
+.thumbnail-item button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.thumbnail-item img {
+  height: 80px;
+  width: 80px;
+}
+
+@media (min-width: 768px) {
+  .thumbnail-item img {
+    height: 100px;
+    width: 100px;
+  }
+}

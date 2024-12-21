@@ -1,0 +1,20 @@
+.tab-item {
+  list-style-type: none;
+  margin-right: 40px;
+}
+.non-active-item {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 20px;
+  color: #fff;
+}
+.active-item {
+  font-size: 20px;
+  color: #fec653;
+  border: none;
+  border-bottom: 3px solid #fec653;
+  background-color: transparent;
+  padding-bottom: 10px;
+}
